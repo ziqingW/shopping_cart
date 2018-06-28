@@ -88,7 +88,9 @@ body {
 }
 
 .modal-back {
+    z-index: 10;
     width: 100%;
+    max-width: 600px;
     height: 75%;
     position: absolute;
     background-color: rgba(150,150,150,0.8);
