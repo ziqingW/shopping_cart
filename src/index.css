@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+
+html, body {
+    width : 100%;
+    height: 100%;
+    font-family: 'Poor Story', cursive;
+    font-weight: 600;
+}
+
+body {
+    margin: 3% 0;
+}
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.app-wrapper {
+    width: 100%;
+    max-width: 600px;
+    height: 75%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-panel {
+    border-bottom: 2px solid black;
+    font-size: 0.7em;
+    padding: 0.3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-panel p {
+    margin: 0;
+}
+
+.info-panel {
+    display: flex;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+.items {
+    width : 55%;
+    border-right: 2px solid black;
+}
+.item {
+    padding: 0 5% 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6%;
+}
+
+.addItem-button {
+    font-size: 0.6em;
+    width: 66px;
+    height: 18px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.addItem-button:hover {
+    cursor : pointer;
+}
+.ordered {
+    display: flex;
+    flex-direction: column;
+}
+.ordered p {
+    width: 100%;
+    padding: 0 2.5% 0 5%;
+    margin: 0;
+    height: 8%;
+}
+.footer {
+    width: 100%;
+    height: 5%;
+    max-height: 25px;
+    border-top: 2px solid black;
+}
+
+.modal-back {
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    background-color: rgba(150,150,150,0.8);
+}
+.modal-form {
+    box-sizing: border-box;
+    margin-top: 20%;
+    width: 70%;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.modal-form>p {
+    margin-top: 0.5em;
+    padding-left: 2%;
+    font-size: 0.8em;
+    border-bottom: 2px solid #757575;
+}
+
+.modal-content {
+    display : flex;
+}
+.question {
+    padding-left: 2%;
+    font-size: 2.5em;
+    color: #f7af3b;
+}
+
+.additem-form {
+    padding: 0 5%;
+    width: 100%;
+}
+
+.additem-form h6 {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.additem-form p {
+    font-size: 0.8em;
+}
+
+.additem-form select {
+    border: 2px solid black;    
+    border-radius: 3px;
+}
+
+.modal-buttons {
+    margin-top: 10%;
+    text-align: right;
+}
+
+.modal-buttons button {
+    margin: 0 2%;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 0.7em;
+    height: 28px;
+    box-shadow: 1px 1px 2px black;
+    font-weight: 600;
+}
+
+.modal-buttons button:hover {
+    cursor: pointer;
+}
+
+.ok-button {
+    background-color: #5493f2;
+    color: white;
+}
